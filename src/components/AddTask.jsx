@@ -13,7 +13,11 @@ const AddTask = ({ addTask }) => {
     <div class="row"
         
     >
-      <div class="m-5 col-5">
+      <div class="m-5 col-5"
+            style={{
+              width: "600px",
+            }}
+      >
         <input
           type="text"
           class="form-control"
@@ -22,7 +26,7 @@ const AddTask = ({ addTask }) => {
           onChange={handleInput}
         />
       </div>
-      <div class="m-5 col-2">
+      <div class="m-5 col-1">
         <button class="btn btn-primary" onClick={onClickHandler}
         >Add Task</button>
       </div>

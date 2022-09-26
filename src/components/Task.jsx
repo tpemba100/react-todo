@@ -5,12 +5,12 @@ const Task = ({task, updateTask}) => {
             style={{
                 marginLeft: "40px",
                 backgroundColor: "gray" ,
-                width: "500px",
+                width: "600px",
             }}
         >
             
             <li class="list-group-item m-2" 
-                style={{width:"300px",
+                style={{width:"400px",
                 textDecoration: task.isCompleted ? "line-through" : "",
                 display: task.isDeleted ? "none" : "",
                 "background-color": task.isCompleted ? "gray" : "" ,
